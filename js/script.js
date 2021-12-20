@@ -35,7 +35,7 @@ photo6.addEventListener('click',openModalImg6)
 photo7.addEventListener('click',openModalImg7)
 
 function openModalImg1(){
-  window.location.href = "./profil/Profil.html";
+  window.location.href = "/profil/Profil.html";
 }
 
 function openModalImg2(){
@@ -58,7 +58,7 @@ function openModalImg6(){
 }
 
 function openModalImg7(){
-  window.location.href = "./profil/Profil.html";
+  window.location.href = "/profil/Profil.html";
 }
 
 ospin.style.width = imgWidth + "px";
