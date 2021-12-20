@@ -2,17 +2,18 @@
 <link rel="stylesheet" href="./public/style.css">
 <html>
 <head>
+  <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
 	<title>PortFolio</title>
 </head>
 
-<body>
+<body id="body" class="body">
  <h1 class="titre">PortFolio</h1>
 <div id="drag-container">
   <div id="spin-container">
    
     
-    <img id="photo1" src="./img/profil.png" alt="">
-    <img id="photo2" src="./img/reservia.png" alt="">
+    <img id="boutonConnexion" class="boutonConnexion" src="./img/profil.png" alt="">
+    <img id="boutonProfilReservia" class="boutonProfilreservia" src="./img/reservia.png" alt="">
     <img id="photo3" src="./img/Ohmyfood (1).png" alt="">
     <img id="photo4" src="./img/LaChouetteAgence.png" alt="">
     <img id="photo5" src="./img/orinoco.png" alt="">
@@ -27,9 +28,64 @@
   </div>
   <div id="ground"></div>
 </div>
+<section class="section">
+<div id="formulaireConnexion" class="card formulaireConnexion">
+  <div class="card-body ">
+    <div class="d-flex flex-column align-items-center text-center">
+      <img src="../img/profil1.jpg" alt="Admin" class="" width="150">
+      <div class="mt-3">
 
-<div id="music-container"></div>
+        
+        <h6 class="text-ajust">A Propos de moi</h6>
+        <p >Bonjour, Suite à une formation de développeur Full Stack de 6 mois <br>
+          et d'une première expérience dans l'entreprise Natam <br>
+          de 7 mois en tant que développeur full stack. <br>
+          Je suis donc à la recherche d'une nouvelle mission. <br>
+          Extrêmement motivé pour atteindre mes objectifs, <br>
+          les défis ne me font pas peur. <br>
+          Tous mes projets sont disponibles ci-dessous</p>
+        <h6 class="text-ajust">savoir acquis</h6>
+        <p>Langages: HTML5 CSS </p>
+        <p>Utilisation: Sass </p>
+        <p>Framework: Bootstrap, Materializecss, Angular, React</p>
+        <p>Library: Font awesome, Three.js </p>
 
+        <h6 class="text-ajust">Liens</h6>
+      <a href="https://www.linkedin.com/in/francois-giorgi-developpeur-web/"><i class="fab fa-linkedin"></i></a> 
+        <i class="fab fa-facebook"></i>
+        <p>Tel:0616025074</p>
+        <button onclick="closeModalConnexion()">Fermer</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="projetReservia" class="card projetReservia">
+  <div class="card-body ">
+    <div class="d-flex flex-column align-items-center text-center">
+      <img src="../img/reservia.png" alt="Admin" class="" width="150">
+      <div class="mt-3">
+
+        
+        <h6 class="text-ajust">Projet Réservia</h6>
+        <ul>
+          <li>Implémenter une interface responsive </li>
+          <li>Mettre en place son environnement Front-End </li>
+          <li>Intégrer du contenu conformément à une maquette</li>
+          <li>Utiliser un système de gestion de versions pour le suivi du projet et son hébergement (Git)</li>
+        </ul> 
+          
+        <h6 class="text-ajust">Utilisation </h6>
+        <p>Langages: HTML5 CSS </p>
+        <p>Librairie: Font awesome,</p>
+
+       
+        <button onclick="closeModalReservia()">Fermer</button>
+       <a href="https://tchoifr.github.io/FrancoisGiorgi_P2/"> <button >accéder au site</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
 <script src="./js/script.js"></script>
 
 </body>

@@ -2,7 +2,7 @@
 
 let radius = 240;
 let autoRotate = true;
-let rotateSpeed = -60;
+let rotateSpeed = -90;
 let imgWidth = 120; 
 let imgHeight = 170;
 
@@ -18,7 +18,7 @@ let ospin = document.getElementById('spin-container');
 let aImg = ospin.getElementsByTagName('img');
 let aVid = ospin.getElementsByTagName('video');
 let aEle = [...aImg, ...aVid];
-let photo1 = document.getElementById('photo1');
+
 let photo2 = document.getElementById('photo2');
 let photo3 = document.getElementById('photo3');
 let photo4 = document.getElementById('photo4');
@@ -26,40 +26,60 @@ let photo5 = document.getElementById('photo5');
 let photo6 = document.getElementById('photo6');
 let photo7 = document.getElementById('photo7');
 
-photo1.addEventListener('click',openModalImg1)
-photo2.addEventListener('click',openModalImg2)
-photo3.addEventListener('click',openModalImg3)
-photo4.addEventListener('click',openModalImg4)
-photo5.addEventListener('click',openModalImg5)
-photo6.addEventListener('click',openModalImg6)
-photo7.addEventListener('click',openModalImg7)
 
-function openModalImg1(){
-  window.location.href = "/profil/Profil.html";
-}
 
-function openModalImg2(){
-  window.location.href = "https://tchoifr.github.io/FrancoisGiorgi_P2/";
-}
 
-function openModalImg3(){
-  window.location.href = "https://tchoifr.github.io/FrancoisGiorgi_P3/";
-}
+//popup Presentation
+let boutonConnexion = document.getElementById('boutonConnexion');
+let formulaireConnexion = document.getElementById('formulaireConnexion');
 
-function openModalImg4(){
-  window.location.href = "https://tchoifr.github.io/FrancoisGiorgi_P4/";
+
+
+boutonConnexion.addEventListener('click',openModalConnexion);
+boutonConnexion.addEventListener("touchstart", openModalConnexion);
+
+function openModalConnexion(){
+  
+    formulaireConnexion.style.display = 'flex';
+    container.style.opacity = 0.5;
 }
-function openModalImg5(){
-  window.location.href = "https://tchoifr.github.io/FrancoisGiorgi_P5/";
+function closeModalConnexion(){
+    formulaireConnexion.style.display = 'none';
+    container.style.opacity = 1;
 }
 
-function openModalImg6(){
-  window.location.href = "https://www.eauservicedebebe.fr/#/";
+//popup Reservia
+let boutonProfilReservia = document.getElementById('boutonProfilReservia')
+let projetReservia = document.getElementById('projetReservia');
+
+boutonProfilReservia.addEventListener('click',openModalReservia);
+boutonProfilReservia.addEventListener("touchstart", openModalReservia);
+
+function openModalReservia(){
+  
+  projetReservia.style.display = 'flex';
+  container.style.opacity = 0.5;
+}
+function closeModalReservia(){
+  projetReservia.style.display = 'none';
+  container.style.opacity = 1;
 }
 
-function openModalImg7(){
-  window.location.href = "/profil/Profil.html";
+
+//rotate none
+let body = document.getElementById('body');
+
+body.addEventListener('click',stopModal)
+function stopModal(){
+  rotateSpeed= false;
+  autoRotate = false;
 }
+
+
+
+
+
+
 
 ospin.style.width = imgWidth + "px";
 ospin.style.height = imgHeight + "px";
@@ -87,6 +107,7 @@ function applyTranform(obj) {
 
 function playSpin(yes) {
   ospin.style.animationPlayState = (yes?'running':'paused');
+  
 }
 
 let sX, sY, nX, nY, desX = 0,

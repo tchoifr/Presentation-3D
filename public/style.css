@@ -63,9 +63,10 @@ body {
 }
 
 #drag-container img:hover, #drag-container video:hover {
-  -webkit-box-shadow: 0 0 15px #fffd;
-          box-shadow: 0 0 15px #fffd;
+  -webkit-box-shadow: 0 0 15px rgba(211, 211, 211, 0.867);
+          box-shadow: 0 0 15px rgba(255, 255, 255, 0.867);
   -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, #0007);
+  
 }
 
 #drag-container p {
@@ -75,14 +76,14 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%,-50%) rotateX(90deg);
           transform: translate(-50%,-50%) rotateX(90deg);
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 #ground {
   width: 900px;
   height: 900px;
   position: absolute;
-  top: 100%;
+  top: 125%;
   left: 50%;
   -webkit-transform: translate(-50%,-50%) rotateX(90deg);
           transform: translate(-50%,-50%) rotateX(90deg);
@@ -131,4 +132,83 @@ body {
     -webkit-transform: rotateY(0deg);
             transform: rotateY(0deg);
   }
+}
+
+#formulaireConnexion{
+  
+  background-color: #d1d1d1;
+  z-index: 1000;
+  padding: 40px 60px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    min-width: 200px;
+    box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    display: none;
+    
+}
+.section{
+
+  width: auto;
+  
+}
+p{
+    font-size: 1.5em;
+  }
+  .text-ajust{
+    font-size: 2em;
+    font-family: fantasy;
+  }
+#formulaireConnexion button{
+  padding: 15px 25px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  
+}
+
+.section{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 7rem;
+}
+
+#projetReservia button{
+  padding: 15px 25px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  
+}
+#projetReservia{
+  background-color: #d1d1d1; 
+  z-index: 1000;
+  padding: 40px 60px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    min-width: 200px;
+    box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
+    display: none;
+    
+}
+li{
+  font-size: 1.5em;
+}
+
+
+
+@media screen and (min-width: 790px) and (max-width: 1050px) {
+  
+}
+@media screen and (min-width: 1294px) and (max-width: 1376px) {
+ 
 }
