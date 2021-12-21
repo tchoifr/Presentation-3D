@@ -41,6 +41,13 @@ boutonConnexion.addEventListener("touchstart", openModalConnexion);
 function openModalConnexion(){
   
     formulaireConnexion.style.display = 'flex';
+    projetReservia.style.display = 'none';
+    projetOhmyfood.style.display = 'none';  
+    projetChouette.style.display = 'none'; 
+    projetOrinoco.style.display = 'none';    
+    projetBebe.style.display = 'none';
+    projetContact.style.display = 'none';
+    
     container.style.opacity = 0.5;
 }
 function closeModalConnexion(){
@@ -56,8 +63,15 @@ boutonProfilReservia.addEventListener('click',openModalReservia);
 boutonProfilReservia.addEventListener("touchstart", openModalReservia);
 
 function openModalReservia(){
-  
+ 
   projetReservia.style.display = 'flex';
+  projetOhmyfood.style.display = 'none';
+  formulaireConnexion.style.display = 'none';
+  projetChouette.style.display = 'none';
+  projetOrinoco.style.display = 'none';
+  projetBebe.style.display = 'none';
+  projetContact.style.display = 'none';
+
   container.style.opacity = 0.5;
 }
 function closeModalReservia(){
@@ -75,6 +89,12 @@ boutonProfilOhmyfood.addEventListener("touchstart", openModalOhmyfood);
 function openModalOhmyfood(){
   
   projetOhmyfood.style.display = 'flex';
+  formulaireConnexion.style.display = 'none';
+  projetChouette.style.display = 'none';
+  projetOrinoco.style.display = 'none';
+  projetBebe.style.display = 'none';
+ projetContact.style.display = 'none'; 
+ projetReservia.style.display = 'none';
   container.style.opacity = 0.5;
 }
 function closeModalOhmyfood(){
@@ -92,6 +112,12 @@ boutonProfilChouette.addEventListener("touchstart", openModalChouette);
 function openModalChouette(){
   
   projetChouette.style.display = 'flex';
+  formulaireConnexion.style.display = 'none';
+  projetOrinoco.style.display = 'none';
+  projetBebe.style.display = 'none';
+ projetContact.style.display = 'none';
+ projetReservia.style.display = 'none';
+ projetOhmyfood.style.display = 'none';
   container.style.opacity = 0.5;
 }
 function closeModalChouette(){
@@ -109,6 +135,13 @@ boutonProfilOrinoco.addEventListener("touchstart", openModalOrinoco);
 function openModalOrinoco(){
   
   projetOrinoco.style.display = 'flex';
+  formulaireConnexion.style.display = 'none';
+ projetReservia.style.display = 'none';
+projetOhmyfood.style.display = 'none';
+projetChouette.style.display = 'none';
+projetBebe.style.display = 'none';
+projetContact.style.display = 'none';
+
   container.style.opacity = 0.5;
 }
 function closeModalOrinoco(){
@@ -126,6 +159,12 @@ boutonProfilBebe.addEventListener("touchstart", openModalBebe);
 function openModalBebe(){
   
   projetBebe.style.display = 'flex';
+  formulaireConnexion.style.display = 'none';
+ projetReservia.style.display = 'none';
+projetOhmyfood.style.display = 'none';
+projetChouette.style.display = 'none';
+projetContact.style.display = 'none';
+ projetOrinoco.style.display = 'none';
   container.style.opacity = 0.5;
 }
 function closeModalBebe(){
@@ -143,6 +182,12 @@ boutonProfilContact.addEventListener("touchstart", openModalContact);
 function openModalContact(){
   
   projetContact.style.display = 'flex';
+  formulaireConnexion.style.display = 'none';
+ projetReservia.style.display = 'none';
+projetOhmyfood.style.display = 'none';
+projetChouette.style.display = 'none';
+ projetOrinoco.style.display = 'none';
+ projetBebe.style.display = 'none';
   container.style.opacity = 0.5;
 }
 function closeModalContact(){
