@@ -138,7 +138,7 @@ body {
   text-align: center;
   background-color: #ffffff;
   z-index: 1000;
-  padding: 40px 60px;
+  padding: 0px 25px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -146,28 +146,47 @@ body {
     min-width: 200px;
     box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
     display: none;
-    
+   animation: formulaireConnexion 2s;
+   border-radius: 10px; 
+
 }
+
 .section{
 
   width: auto;
   
 }
 p{
-    font-size: 1.2em;
+    font-size: 1em;
+    margin: 5px;
+    font-family: cursive;
+
   }
   .text-ajust{
     font-size: 2em;
     font-family: fantasy;
   }
 #formulaireConnexion button{
-  padding: 15px 25px;
-  border: none;
-  border-radius: 10px;
-  font-size: 15px;
-  color: white;
-  background-color: black;
-  
+  text-decoration: none;
+padding: 10px;
+font-family: arial;
+font-size: 1em;
+color: #FFFFFF;
+background-color: #000000;
+border-radius: 24px;
+-webkit-border-radius: 24px;
+-moz-border-radius: 24px;
+border: 4px solid #FFFFFF;
+box-shadow: 3px 3px 12px #444444;
+-webkit-box-shadow: 3px 3px 12px #444444;
+-moz-box-shadow: 3px 3px 12px #444444;
+}
+#formulaireConnexion button:hover{
+  padding: 10px;
+  background-color: #02accace;
+  box-shadow: 1px 1px 4px #777777;
+  -webkit-box-shadow: 1px 1px 4px #777777;
+  -moz-box-shadow: 1px 1px 4px #777777;
 }
 
 .section{
@@ -179,13 +198,26 @@ p{
 }
 
 #projetReservia button{
-  padding: 15px 25px;
-  border: none;
-  border-radius: 10px;
-  font-size: 15px;
-  color: white;
-  background-color: black;
-  
+  text-decoration: none;
+padding: 10px;
+font-family: arial;
+font-size: 1em;
+color: #FFFFFF;
+background-color: #000000;
+border-radius: 24px;
+-webkit-border-radius: 24px;
+-moz-border-radius: 24px;
+border: 4px solid #FFFFFF;
+box-shadow: 3px 3px 12px #444444;
+-webkit-box-shadow: 3px 3px 12px #444444;
+-moz-box-shadow: 3px 3px 12px #444444;
+}
+#projetReservia button:hover{
+  padding: 10px;
+  background-color: #02accace;
+  box-shadow: 1px 1px 4px #777777;
+  -webkit-box-shadow: 1px 1px 4px #777777;
+  -moz-box-shadow: 1px 1px 4px #777777;
 }
 #projetReservia{
   background-color: #ffffff; 
@@ -199,20 +231,36 @@ p{
     box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
     display: none;
     text-align: center;
+    animation: projetReservia 2s;
+    border-radius: 10px;
     
 }
 
 
 
 #projetOhmyfood button{
-  padding: 15px 25px;
-  border: none;
-  border-radius: 10px;
-  font-size: 15px;
-  color: white;
-  background-color: black;
-  
-}
+  text-decoration: none;
+  padding: 10px;
+  font-family: arial;
+  font-size: 1em;
+  color: #FFFFFF;
+  background-color: #000000;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  border: 4px solid #FFFFFF;
+  box-shadow: 3px 3px 12px #444444;
+  -webkit-box-shadow: 3px 3px 12px #444444;
+  -moz-box-shadow: 3px 3px 12px #444444;
+  }
+  #projetOhmyfood button:hover{
+    padding: 10px;
+    background-color: #02accace;
+    box-shadow: 1px 1px 4px #777777;
+    -webkit-box-shadow: 1px 1px 4px #777777;
+    -moz-box-shadow: 1px 1px 4px #777777;
+  }
+
 #projetOhmyfood{
   background-color: #ffffff; 
   z-index: 1000;
@@ -224,19 +272,37 @@ p{
     min-width: 200px;
     box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
     display: none;
-    text-align: center;   
+    text-align: center; 
+    animation: projetOhmyfood 2s;
+    border-radius: 10px;  
 }
 
 
 #projetChouette button{
-  padding: 15px 25px;
-  border: none;
-  border-radius: 10px;
-  font-size: 15px;
-  color: white;
-  background-color: black;
-  
-}
+  text-decoration: none;
+  padding: 10px;
+  font-family: arial;
+  font-size: 1em;
+  color: #FFFFFF;
+  background-color: #000000;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  border: 4px solid #FFFFFF;
+  box-shadow: 3px 3px 12px #444444;
+  -webkit-box-shadow: 3px 3px 12px #444444;
+  -moz-box-shadow: 3px 3px 12px #444444;
+  }
+  #projetChouette button:hover{
+    padding: 10px;
+    background-color: #02accace;
+    box-shadow: 1px 1px 4px #777777;
+    -webkit-box-shadow: 1px 1px 4px #777777;
+    -moz-box-shadow: 1px 1px 4px #777777;
+  }
+
+
+
 #projetChouette{
   background-color: #ffffff; 
   z-index: 1000;
@@ -249,7 +315,8 @@ p{
     box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
     display: none;
     text-align: center;
-    
+    animation: projetChouette 2s;
+    border-radius: 10px;
 }
 
 
@@ -257,14 +324,29 @@ p{
 
 
 #projetOrinoco button{
-  padding: 15px 25px;
-  border: none;
-  border-radius: 10px;
-  font-size: 15px;
-  color: white;
-  background-color: black;
-  
-}
+  text-decoration: none;
+  padding: 10px;
+  font-family: arial;
+  font-size: 1em;
+  color: #FFFFFF;
+  background-color: #000000;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  border: 4px solid #FFFFFF;
+  box-shadow: 3px 3px 12px #444444;
+  -webkit-box-shadow: 3px 3px 12px #444444;
+  -moz-box-shadow: 3px 3px 12px #444444;
+  }
+  #projetOrinoco button:hover{
+    padding: 10px;
+    background-color: #02accace;
+    box-shadow: 1px 1px 4px #777777;
+    -webkit-box-shadow: 1px 1px 4px #777777;
+    -moz-box-shadow: 1px 1px 4px #777777;
+  }
+
+
 #projetOrinoco{
   background-color: #ffffff; 
   z-index: 1000;
@@ -277,7 +359,8 @@ p{
     box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
     display: none;
     text-align: center;
-    
+    animation: projetOrinoco 2s;
+    border-radius: 10px;
 }
 
 
@@ -285,14 +368,30 @@ p{
 
 
 #projetBebe button{
-  padding: 15px 25px;
-  border: none;
-  border-radius: 10px;
-  font-size: 15px;
-  color: white;
-  background-color: black;
-  
-}
+  text-decoration: none;
+  padding: 10px;
+  font-family: arial;
+  font-size: 1em;
+  color: #FFFFFF;
+  background-color: #000000;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  border: 4px solid #FFFFFF;
+  box-shadow: 3px 3px 12px #444444;
+  -webkit-box-shadow: 3px 3px 12px #444444;
+  -moz-box-shadow: 3px 3px 12px #444444;
+  }
+  #projetBebe button:hover{
+    padding: 10px;
+    background-color: #02accace;
+    box-shadow: 1px 1px 4px #777777;
+    -webkit-box-shadow: 1px 1px 4px #777777;
+    -moz-box-shadow: 1px 1px 4px #777777;
+  }
+
+
+
 #projetBebe{
   background-color: #ffffff; 
   z-index: 1000;
@@ -305,18 +404,34 @@ p{
     box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
     display: none;
     text-align: center;
+    animation: projetBebe 2s;
+    border-radius: 10px;
     
 }
 
 #projetContact button{
-  padding: 15px 25px;
-  border: none;
-  border-radius: 10px;
-  font-size: 15px;
-  color: white;
-  background-color: black;
-  
-}
+  text-decoration: none;
+  padding: 10px;
+  font-family: arial;
+  font-size: 1em;
+  color: #FFFFFF;
+  background-color: #000000;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  border: 4px solid #FFFFFF;
+  box-shadow: 3px 3px 12px #444444;
+  -webkit-box-shadow: 3px 3px 12px #444444;
+  -moz-box-shadow: 3px 3px 12px #444444;
+  }
+  #projetContact button:hover{
+    padding: 10px;
+    background-color: #02accace;
+    box-shadow: 1px 1px 4px #777777;
+    -webkit-box-shadow: 1px 1px 4px #777777;
+    -moz-box-shadow: 1px 1px 4px #777777;
+  }
+
 #projetContact{
   background-color: #ffffff; 
   z-index: 1000;
@@ -329,11 +444,88 @@ p{
     box-shadow: 0px 0px 15px 5px rgb(255, 255, 255);
     display: none;
     text-align: center;
-    
+    animation: projetContact 2s;
+    border-radius: 10px;
 }
 
 
 
+@keyframes formulaireConnexion {
+  0% {
+    opacity: 0;
+    transform: translateZ(80%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0px);
+  }
+}
+
+@keyframes projetReservia  {
+  0% {
+    opacity: 0;
+    transform: translateZ(80%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0px);
+  }
+}
+
+@keyframes projetOhmyfood{
+  0% {
+    opacity: 0;
+    transform: translateZ(80%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0px);
+  }
+}
+
+@keyframes projetChouette {
+  0% {
+    opacity: 0;
+    transform: translateZ(80%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0px);
+  }
+}
+
+@keyframes projetOrinoco {
+  0% {
+    opacity: 0;
+    transform: translateZ(80%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0px);
+  }
+}
+
+@keyframes projetBebe {
+  0% {
+    opacity: 0;
+    transform: translateZ(80%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0px);
+  }
+}
+
+@keyframes projetContact {
+  0% {
+    opacity: 0;
+    transform: translateZ(80%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0px);
+  }
+}
 
 
 @media screen and (min-width: 320px) and (max-width: 450px) {
