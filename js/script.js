@@ -38,6 +38,7 @@ boutonConnexion.addEventListener("touchstart", openModalConnexion);
 function openModalConnexion(){
   
     formulaireConnexion.style.display = 'flex';
+    
     boutonConnexion.style.display = 'none';
     boutonProfilReservia.style.display = 'none';
     boutonProfilOhmyfood.style.display = 'none';
@@ -46,13 +47,7 @@ function openModalConnexion(){
     boutonProfilBebe.style.display = 'none';
     boutonProfilContact.style.display = 'none';
 
-    projetReservia.style.display = 'none';
-    projetOhmyfood.style.display = 'none';  
-    projetChouette.style.display = 'none'; 
-    projetOrinoco.style.display = 'none';    
-    projetBebe.style.display = 'none';
-    projetContact.style.display = 'none';
-    
+   
  
 }
 function closeModalConnexion(){
@@ -80,14 +75,9 @@ boutonProfilReservia.addEventListener("touchstart", openModalReservia);
 function openModalReservia(){
  
   projetReservia.style.display = 'flex';
-  projetOhmyfood.style.display = 'none';
-  formulaireConnexion.style.display = 'none';
-  projetChouette.style.display = 'none';
-  projetOrinoco.style.display = 'none';
-  projetBebe.style.display = 'none';
-  projetContact.style.display = 'none';
+ 
 
-  boutonConnexion.style.display = 'none';
+    boutonConnexion.style.display = 'none';
     boutonProfilReservia.style.display = 'none';
     boutonProfilOhmyfood.style.display = 'none';
     boutonProfilChouette.style.display = 'none';
@@ -123,14 +113,9 @@ boutonProfilOhmyfood.addEventListener("touchstart", openModalOhmyfood);
 function openModalOhmyfood(){
   
   projetOhmyfood.style.display = 'flex';
-  formulaireConnexion.style.display = 'none';
-  projetChouette.style.display = 'none';
-  projetOrinoco.style.display = 'none';
-  projetBebe.style.display = 'none';
- projetContact.style.display = 'none'; 
- projetReservia.style.display = 'none';
+  
 
- boutonConnexion.style.display = 'none';
+    boutonConnexion.style.display = 'none';
     boutonProfilReservia.style.display = 'none';
     boutonProfilOhmyfood.style.display = 'none';
     boutonProfilChouette.style.display = 'none';
@@ -161,14 +146,9 @@ boutonProfilChouette.addEventListener("touchstart", openModalChouette);
 function openModalChouette(){
   
   projetChouette.style.display = 'flex';
-  formulaireConnexion.style.display = 'none';
-  projetOrinoco.style.display = 'none';
-  projetBebe.style.display = 'none';
- projetContact.style.display = 'none';
- projetReservia.style.display = 'none';
- projetOhmyfood.style.display = 'none';
 
- boutonConnexion.style.display = 'none';
+
+    boutonConnexion.style.display = 'none';
     boutonProfilReservia.style.display = 'none';
     boutonProfilOhmyfood.style.display = 'none';
     boutonProfilChouette.style.display = 'none';
@@ -203,14 +183,9 @@ boutonProfilOrinoco.addEventListener("touchstart", closeModalOrinoco);
 function openModalOrinoco(){
   
   projetOrinoco.style.display = 'flex';
-  formulaireConnexion.style.display = 'none';
- projetReservia.style.display = 'none';
-projetOhmyfood.style.display = 'none';
-projetChouette.style.display = 'none';
-projetBebe.style.display = 'none';
-projetContact.style.display = 'none';
+ 
 
-boutonConnexion.style.display = 'none';
+    boutonConnexion.style.display = 'none';
     boutonProfilReservia.style.display = 'none';
     boutonProfilOhmyfood.style.display = 'none';
     boutonProfilChouette.style.display = 'none';
@@ -245,14 +220,9 @@ function openModalBebe(event){
   console.log(event);
   
   projetBebe.style.display = 'flex';
-  formulaireConnexion.style.display = 'none';
- projetReservia.style.display = 'none';
-projetOhmyfood.style.display = 'none';
-projetChouette.style.display = 'none';
-projetContact.style.display = 'none';
- projetOrinoco.style.display = 'none';
+ 
 
- boutonConnexion.style.display = 'none';
+    boutonConnexion.style.display = 'none';
     boutonProfilReservia.style.display = 'none';
     boutonProfilOhmyfood.style.display = 'none';
     boutonProfilChouette.style.display = 'none';
@@ -284,14 +254,8 @@ boutonProfilContact.addEventListener("touchstart", closeModalContact);
 function openModalContact(){
   
   projetContact.style.display = 'flex';
-  formulaireConnexion.style.display = 'none';
- projetReservia.style.display = 'none';
-projetOhmyfood.style.display = 'none';
-projetChouette.style.display = 'none';
- projetOrinoco.style.display = 'none';
- projetBebe.style.display = 'none';
 
- boutonConnexion.style.display = 'none';
+    boutonConnexion.style.display = 'none';
     boutonProfilReservia.style.display = 'none';
     boutonProfilOhmyfood.style.display = 'none';
     boutonProfilChouette.style.display = 'none';
