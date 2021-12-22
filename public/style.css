@@ -177,9 +177,6 @@ body {
     display: none;
    animation: formulaireConnexion 2s;
    border-radius: 10px; 
-overflow: hidden;
-   overflow: scroll;
-
 }
 
 .section{
@@ -215,6 +212,7 @@ box-shadow: 3px 3px 12px #444444;
 -webkit-box-shadow: 3px 3px 12px #444444;
 -moz-box-shadow: 3px 3px 12px #444444;
 z-index:1;
+margin-bottom: 10px;
 }
 #formulaireConnexion button:hover{
   padding: 10px;
@@ -584,4 +582,10 @@ z-index:1;
     
     align-items: flex-end !important;
   }
+#formulaireConnexion{
+  overflow: hidden;
+   overflow: scroll;
+}
+
+
 }
