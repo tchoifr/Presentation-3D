@@ -573,11 +573,9 @@ z-index:1;
   
 
   p{
-    font-size: 2.5em !important; 
+    font-size: 2em !important; 
   }
-  #formulaireConnexion{
-    font-size: 1em !important;
-  }
+  
   .text-ajust{
     font-size: 3em !important;
   
