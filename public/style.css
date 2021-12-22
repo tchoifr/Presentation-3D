@@ -234,6 +234,9 @@ body {
   width: auto;
   
 }
+.icon{
+  font-size: 2em;
+}
 p{
     font-size: 1em;
     margin: 5px;
