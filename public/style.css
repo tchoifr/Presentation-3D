@@ -177,7 +177,7 @@ body {
     display: none;
    animation: formulaireConnexion 2s;
    border-radius: 10px; 
-   overflow: hidden;
+   
    overflow: scroll;
 }
 
