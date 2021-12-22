@@ -177,6 +177,8 @@ body {
     display: none;
    animation: formulaireConnexion 2s;
    border-radius: 10px; 
+   overflow: hidden;
+   overflow: scroll;
 }
 
 .section{
@@ -585,10 +587,7 @@ z-index:1;
     
     align-items: flex-end !important;
   }
-#formulaireConnexion{
-  overflow: hidden;
-   overflow: scroll;
-}
+
 
 
 }
