@@ -26,12 +26,16 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, #313131 51%, #5a5a5a 100%) !important;
+
+  background: linear-gradient(-45deg, #1502c0, #9a9cf0, #23a6d5, #23d5ab);
+
+
   -webkit-perspective: 1000px;
           perspective: 1000px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
 }
+
 
 #drag-container, #spin-container {
   position: relative;
