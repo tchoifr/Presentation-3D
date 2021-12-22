@@ -11,7 +11,7 @@ font-size:45px;
   font-family: futura;
   font-style: italic;
   -webkit-animation:colorchange 20s infinite alternate;
-  height: 200px;
+  height: 300px;
   align-items: center;
 }
 
@@ -624,7 +624,7 @@ box-shadow: 3px 3px 12px #444444;
   
   }
   h1{
-    height: 300px !important;
+    
     align-items: flex-end !important;
   }
 }
