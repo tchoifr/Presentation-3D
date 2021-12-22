@@ -11,7 +11,8 @@ font-size:45px;
   font-family: futura;
   font-style: italic;
   -webkit-animation:colorchange 20s infinite alternate;
-  
+  height: 200px;
+  align-items: center;
 }
 
 @-webkit-keyframes colorchange {
