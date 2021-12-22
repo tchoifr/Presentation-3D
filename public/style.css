@@ -623,4 +623,8 @@ box-shadow: 3px 3px 12px #444444;
     font-size: 3em !important;
   
   }
+  h1{
+    height: 300px !important;
+    align-items: flex-end !important;
+  }
 }
