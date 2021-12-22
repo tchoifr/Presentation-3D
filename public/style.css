@@ -1,13 +1,77 @@
 h1{
     font-size: 4em;
-    color: #fff;
     display: flex;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     align-items: center;
     width: 100%;
     position: absolute;
     justify-content: center;
+    color:#313131;
+font-size:45px;
+  font-weight: bold;
+  font-family: futura;
+  font-style: italic;
+  -webkit-animation:colorchange 20s infinite alternate;
+  
 }
+
+@-webkit-keyframes colorchange {
+  0% {
+    
+    color: blue;
+  }
+  
+  10% {
+    
+    color: #7c00b1;
+  }
+  
+  20% {
+    
+    color: #00ff6a;
+  }
+  
+  30% {
+    
+    color: #d35400;
+  }
+  
+  40% {
+    
+    color: rgb(72, 3, 184);
+  }
+  
+  50% {
+    
+    color: #34495e;
+  }
+  
+  60% {
+    
+    color: blue;
+  }
+  
+  70% {
+    
+    color: #2980b9;
+  }
+  80% {
+ 
+    color: #001ea5;
+  }
+  
+  90% {
+ 
+    color: #2980b9;
+  }
+  
+  100% {
+    
+    color: pink;
+  }
+}
+
+
+
 
 	* {
   margin: 0;
@@ -26,14 +90,24 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-
   background: linear-gradient(-45deg, #1502c0, #9a9cf0, #23a6d5, #23d5ab);
-
-
+  animation: gradient 15s ease infinite;
   -webkit-perspective: 1000px;
           perspective: 1000px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
+  @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+        
 }
 
 
@@ -163,7 +237,7 @@ body {
 p{
     font-size: 1em;
     margin: 5px;
-    font-family: cursive;
+    font-family: futura;
 
   }
   .text-ajust{
