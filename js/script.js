@@ -38,6 +38,14 @@ boutonConnexion.addEventListener("touchstart", openModalConnexion);
 function openModalConnexion(){
   
     formulaireConnexion.style.display = 'flex';
+    boutonConnexion.style.display = 'none';
+    boutonProfilReservia.style.display = 'none';
+    boutonProfilOhmyfood.style.display = 'none';
+    boutonProfilChouette.style.display = 'none';
+    boutonProfilOrinoco.style.display = 'none';
+    boutonProfilBebe.style.display = 'none';
+    boutonProfilContact.style.display = 'none';
+
     projetReservia.style.display = 'none';
     projetOhmyfood.style.display = 'none';  
     projetChouette.style.display = 'none'; 
@@ -45,10 +53,20 @@ function openModalConnexion(){
     projetBebe.style.display = 'none';
     projetContact.style.display = 'none';
     
-    
+ 
 }
 function closeModalConnexion(){
     formulaireConnexion.style.display = 'none';
+    boutonConnexion.style.display = 'flex';
+    boutonProfilReservia.style.display = 'flex';
+    boutonProfilOhmyfood.style.display = 'flex';
+    boutonProfilChouette.style.display = 'flex';
+    boutonProfilOrinoco.style.display = 'flex';
+    boutonProfilBebe.style.display = 'flex';
+    boutonProfilContact.style.display = 'flex';
+
+    
+    
     
 }
 
@@ -69,11 +87,30 @@ function openModalReservia(){
   projetBebe.style.display = 'none';
   projetContact.style.display = 'none';
 
+  boutonConnexion.style.display = 'none';
+    boutonProfilReservia.style.display = 'none';
+    boutonProfilOhmyfood.style.display = 'none';
+    boutonProfilChouette.style.display = 'none';
+    boutonProfilOrinoco.style.display = 'none';
+    boutonProfilBebe.style.display = 'none';
+    boutonProfilContact.style.display = 'none';
+
   
 }
 function closeModalReservia(){
   projetReservia.style.display = 'none';
+  boutonConnexion.style.display = 'flex';
+  boutonProfilReservia.style.display = 'flex';
+  boutonProfilOhmyfood.style.display = 'flex';
+  boutonProfilChouette.style.display = 'flex';
+  boutonProfilOrinoco.style.display = 'flex';
+  boutonProfilBebe.style.display = 'flex';
+  boutonProfilContact.style.display = 'flex';
+
+  
+  
  
+
 }
 
 //popup OhMyFood
@@ -92,10 +129,28 @@ function openModalOhmyfood(){
   projetBebe.style.display = 'none';
  projetContact.style.display = 'none'; 
  projetReservia.style.display = 'none';
+
+ boutonConnexion.style.display = 'none';
+    boutonProfilReservia.style.display = 'none';
+    boutonProfilOhmyfood.style.display = 'none';
+    boutonProfilChouette.style.display = 'none';
+    boutonProfilOrinoco.style.display = 'none';
+    boutonProfilBebe.style.display = 'none';
+    boutonProfilContact.style.display = 'none';
   
 }
 function closeModalOhmyfood(){
   projetOhmyfood.style.display = 'none';
+  
+  boutonConnexion.style.display = 'flex';
+  boutonProfilReservia.style.display = 'flex';
+  boutonProfilOhmyfood.style.display = 'flex';
+  boutonProfilChouette.style.display = 'flex';
+  boutonProfilOrinoco.style.display = 'flex';
+  boutonProfilBebe.style.display = 'flex';
+  boutonProfilContact.style.display = 'flex';
+
+  
   
 }
 
@@ -112,10 +167,30 @@ function openModalChouette(){
  projetContact.style.display = 'none';
  projetReservia.style.display = 'none';
  projetOhmyfood.style.display = 'none';
+
+ boutonConnexion.style.display = 'none';
+    boutonProfilReservia.style.display = 'none';
+    boutonProfilOhmyfood.style.display = 'none';
+    boutonProfilChouette.style.display = 'none';
+    boutonProfilOrinoco.style.display = 'none';
+    boutonProfilBebe.style.display = 'none';
+    boutonProfilContact.style.display = 'none';
   
 }
 function closeModalChouette(){
   projetChouette.style.display = 'none';
+  boutonConnexion.style.display = 'flex';
+  boutonProfilReservia.style.display = 'flex';
+  boutonProfilOhmyfood.style.display = 'flex';
+  boutonProfilChouette.style.display = 'flex';
+  boutonProfilOrinoco.style.display = 'flex';
+  boutonProfilBebe.style.display = 'flex';
+  boutonProfilContact.style.display = 'flex';
+
+  
+
+  
+  
 }
 
 //PopupOrinoco
@@ -135,10 +210,28 @@ projetChouette.style.display = 'none';
 projetBebe.style.display = 'none';
 projetContact.style.display = 'none';
 
+boutonConnexion.style.display = 'none';
+    boutonProfilReservia.style.display = 'none';
+    boutonProfilOhmyfood.style.display = 'none';
+    boutonProfilChouette.style.display = 'none';
+    boutonProfilOrinoco.style.display = 'none';
+    boutonProfilBebe.style.display = 'none';
+    boutonProfilContact.style.display = 'none';
+
   
 }
 function closeModalOrinoco(){
   projetOrinoco.style.display = 'none';
+  boutonConnexion.style.display = 'flex';
+  boutonProfilReservia.style.display = 'flex';
+  boutonProfilOhmyfood.style.display = 'flex';
+  boutonProfilChouette.style.display = 'flex';
+  boutonProfilOrinoco.style.display = 'flex';
+  boutonProfilBebe.style.display = 'flex';
+  boutonProfilContact.style.display = 'flex';
+
+  
+  
 }
 
 //popupBebe
@@ -158,10 +251,27 @@ projetOhmyfood.style.display = 'none';
 projetChouette.style.display = 'none';
 projetContact.style.display = 'none';
  projetOrinoco.style.display = 'none';
+
+ boutonConnexion.style.display = 'none';
+    boutonProfilReservia.style.display = 'none';
+    boutonProfilOhmyfood.style.display = 'none';
+    boutonProfilChouette.style.display = 'none';
+    boutonProfilOrinoco.style.display = 'none';
+    boutonProfilBebe.style.display = 'none';
+    boutonProfilContact.style.display = 'none';
   
 }
 function closeModalBebe(){
   projetBebe.style.display = 'none';
+
+  boutonConnexion.style.display = 'flex';
+  boutonProfilReservia.style.display = 'flex';
+  boutonProfilOhmyfood.style.display = 'flex';
+  boutonProfilChouette.style.display = 'flex';
+  boutonProfilOrinoco.style.display = 'flex';
+  boutonProfilBebe.style.display = 'flex';
+  boutonProfilContact.style.display = 'flex';
+
 }
 
 //popupContact
@@ -180,10 +290,28 @@ projetOhmyfood.style.display = 'none';
 projetChouette.style.display = 'none';
  projetOrinoco.style.display = 'none';
  projetBebe.style.display = 'none';
+
+ boutonConnexion.style.display = 'none';
+    boutonProfilReservia.style.display = 'none';
+    boutonProfilOhmyfood.style.display = 'none';
+    boutonProfilChouette.style.display = 'none';
+    boutonProfilOrinoco.style.display = 'none';
+    boutonProfilBebe.style.display = 'none';
+    boutonProfilContact.style.display = 'none';
   
 }
 function closeModalContact(){
   projetContact.style.display = 'none';
+  boutonConnexion.style.display = 'flex';
+  boutonProfilReservia.style.display = 'flex';
+  boutonProfilOhmyfood.style.display = 'flex';
+  boutonProfilChouette.style.display = 'flex';
+  boutonProfilOrinoco.style.display = 'flex';
+  boutonProfilBebe.style.display = 'flex';
+  boutonProfilContact.style.display = 'flex';
+
+  
+  
 }
 
 
